@@ -50,5 +50,5 @@ jobs:
         fi
     - name: Push Commits
       env:
-        DOWNSTREAM_BRANCH: master
+        DOWNSTREAM_BRANCH: 19.07
       run: git push origin $DOWNSTREAM_BRANCH
